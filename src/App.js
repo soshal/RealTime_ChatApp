@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from "react";
+
+import { Box,VStack,Button,Container} from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Box bg={"red.100"}>
+      <Container h={'100vh'} bg={"white"} >
+        <VStack h={"full"} bg={"telegram.100"}>
+          <Button w={"full"} colorScheme="blue">Log out</Button>
+          
+        </VStack>
+
+
+      </Container>
+
+    </Box>
+
+    
   );
 }
 
