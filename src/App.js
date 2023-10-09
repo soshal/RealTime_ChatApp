@@ -85,7 +85,7 @@ function App() {
   };
 
   return (
-    <Box bg={"red.50"}>
+    <Box bg={"black"}>
       {user ? (
         <Container h={"100vh"} bg={"white"}>
           <VStack h={"full"} bg={"white"} spacing={4}>
